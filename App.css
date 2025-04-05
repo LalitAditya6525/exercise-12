@@ -1,0 +1,49 @@
+/* Navigation Bar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #007bff;
+  color: white;
+}
+
+/* Left side navigation */
+.nav-left ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-left li {
+  margin-right: 20px;
+}
+
+.nav-left a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+/* Right side navigation */
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-button {
+  text-decoration: none;
+  color: white;
+  background-color: #0056b3;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: #003d82;
+}
